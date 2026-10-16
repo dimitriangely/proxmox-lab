@@ -3,7 +3,45 @@
 
 ---
 
+Objectif du contexte de chaque TP :
+
+- expliquer **pourquoi** le travail est entrepris, pas seulement **ce qui** a été réalisé car sans ce cadrage métier, un lecteur voit des commandes, des VMs et des configurations, mais pas le besoin d’entreprise auquel elles répondent.
+
+- **donner du sens** — chaque réalisation (template, VLAN, ZFS, PRA) répond à un besoin concret, pas à une liste d’exercices ;
+
+- **lire le dossier comme une preuve de compétence** — le scénario montre la compréhension du problème, au-delà de la maîtrise des outils ;
+
+- **relier les 4 TPs** — c’est la même équipe virtualisation qui progresse : déploiement → réseau → stockage → résilience ;
+
+- **rendre le README autonome** — inutile de relire les PDF d’énoncé pour retrouver le cadre.
+
+Les objectifs techniques disent *quoi faire* ; le contexte dit *pour quel besoin*. Les deux ensemble rendent le rendu crédible.
+
 ## Cadre de réalisation
+
+### Contexte de chaque TP
+
+Je fais parti de l’équipe virtualisation d’une PME.
+
+**TP1 — Déploiement Proxmox avancé (templates, clones, snapshots et restauration)**  
+
+L’entreprise souhaite déployer rapidement plusieurs serveurs Linux pour ses services internes : un serveur web, un serveur de base de données, une machine d’administration, et une machine de test pour valider les snapshots et les restaurations. 
+
+L’objectif est de préparer une base Proxmox propre, réutilisable et industrialisable.
+
+**TP2 — Réseau Proxmox (bridges, VLAN, routage, isolation et firewall)**  
+
+L’entreprise souhaite héberger plusieurs services dans Proxmox, mais elle ne veut pas que toutes les machines soient dans le même réseau. 
+
+Vous devez créer une architecture réseau virtualisée avec plusieurs zones : administration, serveurs internes, utilisateurs, et une DMZ pour les services exposés.
+
+**TP3 — Stockage Proxmox (iSCSI, NFS, LVM-thin, ZFS et résilience)**   
+
+L’entreprise utilise Proxmox pour héberger plusieurs machines virtuelles et souhaite structurer correctement son stockage : local, réseau, bloc, fichier, ZFS avancé, sauvegardes, disques de VMs et volumes partagés.
+
+**TP4 — Cluster Proxmox (haute disponibilité, quorum, migration et PRA)** 
+
+L’entreprise utilise Proxmox pour héberger des services internes et souhaite une infrastructure capable de résister à la panne d’un nœud ou de permettre une reprise rapide du service. Vous devez construire ou simuler un cluster Proxmox, configurer les mécanismes de HA / PRA, puis provoquer une panne contrôlée.
 
 ### Environnement technique
 
