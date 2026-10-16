@@ -1,5 +1,5 @@
-# TPs Proxmox VE — M2 Infrastructure Cloud
-**Dimitri ANGELY** · M2 Infrastructure Cloud · Île-de-France · Juin 2026
+# TPs Proxmox VE — M2 Infrastructure Cloud et Devops (RNCP39582)
+**Dimitri ANGELY** · M2 Infrastructure Cloud · Juin 2026
 
 ---
 
@@ -11,7 +11,7 @@ Ces travaux pratiques ont été réalisés dans un environnement de **virtualisa
 
 | Composant | Détail |
 |-----------|--------|
-| Hôte physique | Windows 11 — Intel i7-13650HX (14 cores / 20 threads) — 32 Go RAM |
+| Hôte physique | Windows 11 — Intel i7-13650HX (14 cores / 20 threads) — 64 Go RAM |
 | Hyperviseur hôte | VMware Workstation |
 | Hyperviseur cible | Proxmox VE 9.2 (Debian Trixie) |
 | Ressources Proxmox | 16 vCPUs · 32 Go RAM · 200 Go disque (sda) |
@@ -308,11 +308,11 @@ Noeud Proxmox (192.168.131.135)
 
 | Fichier | Contenu |
 |---------|---------|
-| `TP1et2-Proxmox-DimitriANGELY.pdf` | Documentation complète TP3 avec sorties terminales réelles |
-| `TP3_Proxmox_Stockage_Dimitri_ANGELY.pdf` | Documentation complète TP3 avec sorties terminales réelles |
-| `TP4_Proxmox_Cluster_HA_PRA_Dimitri_ANGELY.pdf` | Documentation complète TP4 avec timestamps RTO mesurés |
-| `README_TPs_Proxmox_Dimitri_ANGELY.md` | Ce fichier |
+| `TP1et2-Proxmox-DimitriANGELY-rendu.pdf` | Documentation complète TP1 et 2 avec sorties terminales réelles |
+| `TP3_Proxmox_Stockage_Dimitri_ANGELY-rendu.pdf` | Documentation complète TP3 avec sorties terminales réelles |
+| `TP4_Proxmox_Cluster_HA_PRA_Dimitri_ANGELY-rendu.pdf` | Documentation complète TP4 avec timestamps RTO mesurés |
+| `README.md` | Ce fichier |
 
 ---
 
-*Dimitri ANGELY — M2 Infrastructure Cloud — Juin 2026*
+*Dimitri ANGELY — M2 Infrastructure Cloud et Devops (RNCP39582) — Juin 2026*
