@@ -308,10 +308,10 @@ Noeud Proxmox (192.168.131.135)
 
 | Fichier | Contenu |
 |---------|---------|
-| `TP1et2-Proxmox-DimitriANGELY-rendu.pdf` | Documentation complète TP1 et 2 avec sorties terminales réelles |
-| `TP3_Proxmox_Stockage_Dimitri_ANGELY-rendu.pdf` | Documentation complète TP3 avec sorties terminales réelles |
-| `TP4_Proxmox_Cluster_HA_PRA_Dimitri_ANGELY-rendu.pdf` | Documentation complète TP4 avec timestamps RTO mesurés |
-| `README.md` | Ce fichier |
+| [TP1et2-Proxmox-DimitriANGELY-rendu.pdf](TP1_et_TP2/TP1et2-Proxmox-DimitriANGELY-rendu.pdf) | Documentation complète TP1 et 2 avec sorties terminales réelles |
+| [TP3_Proxmox_Stockage_Dimitri_ANGELY-rendu.pdf](TP3/TP3_ProxmoxStockage_Dimitri_ANGELY-rendu.pdf) | Documentation complète TP3 avec sorties terminales réelles |
+| [TP4_Proxmox_Cluster_HA_PRA_Dimitri_ANGELY-rendu.pdf](TP4/TP4_Proxmox_Cluster_HA_PRA_Dimitri_ANGELY-rendu.pdf) | Documentation complète TP4 avec timestamps RTO mesurés |
+| [README.md](README.md) | Ce fichier |
 
 ---
 
